@@ -1,0 +1,18 @@
+body {
+	background: #fefefe;
+}
+.mainHeader{
+	color: rgb(11, 170, 59);
+}
+
+.sectionHeader {
+	color: #1460AA;
+	background: beige;
+}
+.moreHeader{
+	color:rgb(167, 99, 11);
+	background: beige;
+}
+.paragraph {
+	color: black;
+}
