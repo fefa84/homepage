@@ -1,18 +1,42 @@
 body {
 	background: #FFF8F0;
 }
-.mainHeader{
+main {
+	max-width: 1000px;
+	margin:32px auto;
+}
+.article__Header{
 	color:#92140C;
+	margin-top:30px;
+	margin-bottom:30px;
 }
 
-.sectionHeader {
+.knowMore__header {
 	color: #322F32;
 	
 }
-.moreHeader{
+.article__title{
 	color:#111D4A;
+	margin-top:50px;
 	
 }
-.paragraph {
+.article__description {
 	color: #1B1B1E;
+	padding:16px;
+	margin-bottom:30px;
+}
+.article__image {
+	margin:30px auto;	
+}
+
+.article_link {
+	color:rgb(21, 86, 228);
+}
+
+.navigation__link {
+	color:#92140C;
+}
+
+.navigation {
+	margin:32px;
 }

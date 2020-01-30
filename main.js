@@ -4,3 +4,6 @@ const age = 35;
 
 
 console.log(`Nazywam się ${name} i mam ${age}lat. Cieszę się, że zaglądasz na moją stronę.`);
+
+const knowMore = document.querySelector('.knowMore__extra--js');
+knowMore.innerHTML = `Nazywam się Ewa Mitra.Teraz muszę to napisać, a potem skasuję`;
