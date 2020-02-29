@@ -103,9 +103,40 @@ background-image: linear-gradient(62deg, #e0dddc 0%, #f1e3c2 100%);
 	
 }
 
+@media (min-width: 641px) {
+	.navigation__switcher {
+		display: none;
+	}
+}
+
 @media (max-width:640px) {
 	.articles {
 		grid-template-columns: 1fr;
+	}
+	
+	.navigation__list {
+		flex-direction: column;
+		align-items: flex-start;
+		display: none;
+	}
+
+	.navigation__list--visible {
+		display:flex;
+	}
+	.navigation__item {
+		margin: 16px;
+	}
+	.navigation__switcher {
+		border: none;
+		background: none;
+		position: absolute;
+		right: 16px;
+		top: 16px;
+	}
+
+	}
+	.site-header {
+		min-height: 48px;
 	}
 }
 
