@@ -1,0 +1,29 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+
+}
+
+body {
+	background: #FFF8F0;
+	background-color: #e0dddc;
+    background-image: linear-gradient(62deg, #e0dddc 0%, #f1e3c2 100%);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+
+
+.form {
+    max-width: 600px;
+    width: 100%;
+}
+
+
+    
